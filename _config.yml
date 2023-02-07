@@ -4,7 +4,7 @@ title: "serendipity"
 description: "my experiences with tech, language learning and more!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /memoirs
+#baseurl: /memoirs
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'observations-1'
 mailchimp-list: 'http://eepurl.com/ij_C1r'
