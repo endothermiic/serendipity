@@ -1,5 +1,5 @@
 # serendipity
 
-personal blog - created with jekyll ; feel free to check out the site (live on gh-pages) [here](https://endothermiic.github.io/serendipity/)
+personal blog - created with jekyll 
 
 more details  coming soon
