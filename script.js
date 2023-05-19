@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var recentPostsData = [
-        { title: "first post", description: "first post description.", link: "firstPost.html" },
+        { title: "first post", description: "first post description.", link: "posts/firstPost.html" },
 
     ];
 

@@ -84,7 +84,7 @@ a:link {
     text-decoration: none;
 }
 
-a:after {
+a:visited {
     color: black;
 }
 
