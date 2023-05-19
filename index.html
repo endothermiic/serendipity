@@ -6,29 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>serendipity</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <!-- Import fonts and icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link href="https://fonts.cdnfonts.com/css/santrome" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
     <script src="script.js"></script> <!-- Link to JavaScript file -->
 </head>
 
 <body>
-    <header>
-        <h1>serendipity</h1>
-        <nav>
+    <nav>
+        <div class="directory">
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">posts</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+        <div class="accounts">
+            <a href="https://github.com/endothermiic"><i class="fa fa-github"></i></a>
+            <a href="https://open.spotify.com/user/31jv33ofdl44sovqmxgycvurdqwq"><i class="fa fa-spotify"></i></a>
+            <a href="https://www.instagram.com/endothermiic/"><i class="fa fa-instagram"></i></a>
+        </div>
+    </nav>
 
+    <section class="header">
+        <h1>serendipity.</h1>
+        <h4>a collection of unexpected yet fortuitous thoughts</h4>
+    </section>
+    <hr>
+
+    <section class="content-container">
+        <div class="left-content"></div>
+        <h2>recent posts</h2>
+        <div class="recent-posts">
+            <div id="recentPostsContainer"></div>
+        </div>
+        <div class="right-content">
+            <div class="about-callout">
+                <img src="images/profile.jpeg">
+                <p class="profile-caption">computer engineering student who enjoys classics perhaps a little too much
+                </p>
+            </div>
+            <div class="updates">
+                <h5>stay updated</h5>
+                <input type="email" name="" id="" placeholder="insert email here">
+                <button class="subscribe-btn">subscribe</button>
+            </div>
+            <div class="search">
+                <h5>search this site</h5>
+                <input type="text" placeholder="looking for?">
+                <button class="search-btn">go</button>
+            </div>
+            <!--add smth for related posts based on tag?-->
+        </div>
+
+    </section>
+
+
+    <!--
     <main>
         <section class="recent-posts">
             <h2>recent posts</h2>
             <div id="recentPostsContainer"></div>
         </section>
     </main>
+-->
 
-    <footer>
-        &copy; <span id="year"></span> Christina Pizzonia
-    </footer>
+</body>
+
+<footer>
+
+    &copy; <span id="year"></span>
+</footer>
+
+</html>
