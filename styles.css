@@ -97,3 +97,22 @@ a:hover {
     margin-top: 5%;
     margin-bottom: 3%;
 }
+
+.content-container {
+    display: grid;
+    grid-template-areas: 'left-content right-content';
+    width: 60%;
+    margin: auto;
+    grid-gap: 50px;
+    text-align: left;
+}
+
+.btn {
+    font-family: "Computer Modern Serif", serif;
+}
+
+.subscribe-btn {
+    background-color: black;
+    border: none;
+    color: white;
+}
