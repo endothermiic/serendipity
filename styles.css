@@ -4,25 +4,33 @@
     box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+@font-face {
+    font-family: cmodern-serif;
+    src: url(fonts/cmunrm.ttf);
+}
+
+
+/* .header-img {
+    height: 400px;
+    width: 100%;
+    background-image: url("images/painting.jpeg");
 } */
 
+
 body {
-    font-family: "Computer Modern Serif", serif;
+    font-family: "cmodern-serif";
 }
 
 h1 {
     font-family: "Santrome";
-    margin-bottom: -1.5%;
+    margin-bottom: -2%;
     margin-top: -4.4%;
 }
 
 h2,
 h4,
 h5 {
-    font-family: "Computer Modern Serif";
+    font-family: "cmodern-serif";
     font-weight: 100;
 }
 
@@ -107,12 +115,66 @@ a:hover {
     text-align: left;
 }
 
-.btn {
-    font-family: "Computer Modern Serif", serif;
-}
-
 .subscribe-btn {
+    font-family: "cmodern-serif";
     background-color: black;
     border: none;
     color: white;
+}
+
+::placeholder {
+    font-family: "cmodern-serif";
+}
+
+form {
+    /* adding inline gets it inline, display change */
+    display: inline-flex;
+    transform: translate(0%, 20%);
+    transition: all 1s;
+    width: 20px;
+    background: white;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    /*vertical-align: top;*/
+
+}
+
+input {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 80%;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+    font-family: "cmodern-serif";
+}
+
+form:hover,
+form:valid {
+    width: 200px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    line-height: 2px;
+}
+
+form:hover input,
+form:valid input {
+    display: block;
+}
+
+form:hover .fa,
+form:valid .fa {
+    color: black;
+    transform: scale(1);
+}
+
+form:valid a {
+    display: block;
+    margin: 0;
+    padding: 0;
 }

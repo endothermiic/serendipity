@@ -31,4 +31,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Get the current year 
     document.getElementById("year").textContent = new Date().getFullYear();
+
 });
